@@ -1,10 +1,11 @@
+var int TOPIC_NINJA_TPEXPANSION_ARMOR__Log_Entry_Added;
 func void Ninja_TPExpansion_Use_FINALDRAGONEQUIPMENT_S1()
 {
     ContinueCall();
     
     if (true == Npc_IsPlayer(self))
 	{
-        if (LOG_RUNNING == TOPIC_NINJA_TPEXPANSION_ARMOR)
+        if (LOG_RUNNING == Ninja_TPExpansion_TOPIC_NINJA_TPEXPANSION_ARMOR)
         {
             if (false == TOPIC_NINJA_TPEXPANSION_ARMOR__Log_Entry_Added)
             {

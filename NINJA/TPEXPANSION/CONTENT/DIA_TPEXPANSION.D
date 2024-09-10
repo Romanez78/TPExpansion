@@ -54,6 +54,7 @@ func void DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_Info ()
 	};
 };
 const string	TOPIC_NINJA_TPEXPANSION_ARMOR				=   "Zbroje tábora bratrstva";
+var int Ninja_TPExpansion_TOPIC_NINJA_TPEXPANSION_ARMOR;
 instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL		(C_INFO)
 {
 	npc		 = 	PC_Psionic;
@@ -80,6 +81,7 @@ func void Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_Info ()
 	CreateInvItems (self, ITAR_TP_NOVL_TPEXPANSION, 1);									
 	B_GiveInvItems (self, other, ITAR_TP_NOVL_TPEXPANSION, 1);					
 	Log_CreateTopic (TOPIC_NINJA_TPEXPANSION_ARMOR,LOG_NOTE);
+    Ninja_TPExpansion_TOPIC_NINJA_TPEXPANSION_ARMOR = LOG_RUNNING;
 	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lester mi dal bederní roušku novice, lepší než nic.");
 };
 instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking		(C_INFO)
@@ -328,4 +330,5 @@ func void Ninja_TPExpansion_DIA_Fortuno_BlackArmor_Info ()
 	AI_Output(other, self, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_08"); //Díky.
 	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"S Fortunem jsme vymysleli nákres na výrobu nejlepších zbrojí bratrstva.");
 		Log_SetTopicStatus (TOPIC_NINJA_TPEXPANSION_ARMOR,LOG_SUCCESS);
+    Ninja_TPExpansion_TOPIC_NINJA_TPEXPANSION_ARMOR = LOG_SUCCESS;
 };
