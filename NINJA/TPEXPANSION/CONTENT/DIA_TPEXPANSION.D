@@ -8,7 +8,7 @@ instance DIA_BRIAN_BUYRAWSTEEL_PATCHOC (C_INFO)
 	condition	 = 	DIA_BRIAN_BUYRAWSTEEL_PATCHOC_Condition;
 	information	 = 	DIA_BRIAN_BUYRAWSTEEL_PATCHOC_Info;
 	permanent	 = 	FALSE;
-	description	 = 	"Pot√∏ebuju v√≠ce surov√© oceli.";
+	description	 = 	"Pot¯ebuju vÌce surovÈ oceli.";
 };
 func int DIA_BRIAN_BUYRAWSTEEL_PATCHOC_Condition ()
 {	
@@ -19,9 +19,9 @@ func int DIA_BRIAN_BUYRAWSTEEL_PATCHOC_Condition ()
 };
 func void DIA_BRIAN_BUYRAWSTEEL_PATCHOC_Info ()
 {
-    AI_Output(other, self, "DIA_BRIAN_BUYRAWSTEEL_PATCHOC_15_01"); //Pot√∏ebuju v√≠ce surov√© oceli.
-    AI_Output(self, other, "DIA_BRIAN_BUYRAWSTEEL_PATCHOC_13_02"); //M√π≈æu ti prodat n√¨j√°ke z m√Ωch osobn√≠ch z√°sob, ale vyjde t√¨ to draho.
-    AI_Output(self, other, "DIA_BRIAN_BUYRAWSTEEL_PATCHOC_13_03"); //200 zlat√Ωch za jeden kus.
+    AI_Output(other, self, "DIA_BRIAN_BUYRAWSTEEL_PATCHOC_15_01"); //Pot¯ebuju vÌce surovÈ oceli.
+    AI_Output(self, other, "DIA_BRIAN_BUYRAWSTEEL_PATCHOC_13_02"); //M˘ûu ti prodat nÏj·ke z m˝ch osobnÌch z·sob, ale vyjde tÏ to draho.
+    AI_Output(self, other, "DIA_BRIAN_BUYRAWSTEEL_PATCHOC_13_03"); //200 zlat˝ch za jeden kus.
 };
 instance DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL		(C_INFO)
 {
@@ -30,7 +30,7 @@ instance DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL		(C_INFO)
 	condition	 = 	DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_Condition;
 	information	 = 	DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_Info;
 	permanent	 = 	TRUE;
-	description	 = 	"Prodej mi jeden kus surov√© oceli. (Cena: 200 zlat√Ωch).";
+	description	 = 	"Prodej mi jeden kus surovÈ oceli. (Cena: 200 zlat˝ch).";
 };
 func int DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_Condition ()
 {	
@@ -41,7 +41,7 @@ func int DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_Condition ()
 };
 func void DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_Info ()
 {
-	AI_Output(other, self, "DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_4_1"); //Prodej mi jeden kus surov√© oceli.
+	AI_Output(other, self, "DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_4_1"); //Prodej mi jeden kus surovÈ oceli.
 	
 	if (B_GiveInvItems(other, self, ItMi_Gold, 200))
 	{	
@@ -50,10 +50,10 @@ func void DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_Info ()
 	}
 	else 
 	{
-		AI_Output(self, other, "DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_4_3"); //P√∏ij√Ø a≈æ bude≈° m√≠t u sebe dost zlata
+		AI_Output(self, other, "DIA_PATCHOC_BRIAN_IWANNABUYSOMESTEEL_4_3"); //P¯ijÔ aû budeö mÌt u sebe dost zlata
 	};
 };
-const string	TOPIC_NINJA_TPEXPANSION_ARMOR				=   "Zbroje t√°bora bratrstva";
+const string	TOPIC_NINJA_TPEXPANSION_ARMOR				=   "Zbroje t·bora bratrstva";
 instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL		(C_INFO)
 {
 	npc		 = 	PC_Psionic;
@@ -61,7 +61,7 @@ instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL		(C_INFO)
 	condition	 = 	Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_Condition;
 	information	 = 	Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_Info;
 
-	description	 = 	"Pot√∏ebuju lep≈°√≠ vybaven√≠.";
+	description	 = 	"Pot¯ebuju lepöÌ vybavenÌ.";
 };
 
 func int Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_Condition ()
@@ -74,13 +74,13 @@ func int Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_Condition ()
 
 func void Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_Info ()
 {
-	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_15_00"); //Pot√∏ebuju lep≈°√≠ vybaven√≠.
-	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_08_02"); //M√π≈æu ti d√°t tuhle bedern√≠ rou≈°ku novice, ale nic lep≈°√≠ho nem√°m.
-	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_15_03"); //Lep≈°√≠ ne≈æ chodit v otrhan√Ωch hadrech.
+	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_15_00"); //Pot¯ebuju lepöÌ vybavenÌ.
+	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_08_02"); //M˘ûu ti d·t tuhle bedernÌ rouöku novice, ale nic lepöÌho nem·m.
+	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovL_15_03"); //LepöÌ neû chodit v otrhan˝ch hadrech.
 	CreateInvItems (self, ITAR_TP_NOVL_TPEXPANSION, 1);									
 	B_GiveInvItems (self, other, ITAR_TP_NOVL_TPEXPANSION, 1);					
 	Log_CreateTopic (TOPIC_NINJA_TPEXPANSION_ARMOR,LOG_NOTE);
-	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lester mi dal bedern√≠ rou≈°ku novice, lep≈°√≠ ne≈æ nic.");
+	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lester mi dal bedernÌ rouöku novice, lepöÌ neû nic.");
 };
 instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking		(C_INFO)
 {
@@ -89,7 +89,7 @@ instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking		(C_INFO)
 	condition	 = 	Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_Condition;
 	information	 = 	Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_Info;
 
-	description	 = 	"Nem√¨l by jsi n√°pad kde sehnat n√¨jakou lep≈°√≠ zbroj?";
+	description	 = 	"NemÏl by jsi n·pad kde sehnat nÏjakou lepöÌ zbroj?";
 };
 
 func int Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_Condition ()
@@ -102,14 +102,14 @@ func int Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_Condition ()
 
 func void Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_Info ()
 {
-	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_15_00"); //Nem√¨l by jsi n√°pad kde sehnat n√¨jakou lep≈°√≠ zbroj?	
-	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_08_01"); //N√¨co m√°lo jsem se p√∏iu√®il o zbroji novic√π z t√°bora v ba≈æin√°ch kdy≈æ jsem je≈°t√¨ byl jeho √®lenem, sep√≠≈°u ti n√°vod jak si jednu vyrobit i pro sebe.
+	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_15_00"); //NemÏl by jsi n·pad kde sehnat nÏjakou lepöÌ zbroj?	
+	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_08_01"); //NÏco m·lo jsem se p¯iuËil o zbroji novic˘ z t·bora v baûin·ch kdyû jsem jeötÏ byl jeho Ëlenem, sepÌöu ti n·vod jak si jednu vyrobit i pro sebe. UrËitÏ najdeö nÏj·kÈho ochotnÈho kov·¯e.
 	CreateInvItems (self, ItWr_TP_BluePrint_NOVM, 1);									
 	B_GiveInvItems (self, other, ItWr_TP_BluePrint_NOVM, 1);
-	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_08_02"); //Napsal bych ti i n√°vod pro tu kterou nos√≠m j√°, ale nem√π≈æu si vzpomenout....	
-	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_08_03"); //Vra¬ù se pozd√¨ji, zkus√≠m si do t√© doby vzpomenout jak to bylo.	
-	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_15_04"); //D√≠ky, ur√®it√¨ se vr√°t√≠m.				
-	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lester mi napsal n√°vod jak vyrobit lehkou zbroj novice. Napsal by mi i n√°vod pro tu samou co nos√≠ on, ale nem√π≈æe si vzpomenout jak to bylo, tak≈æe se za n√≠m m√°m stavit pozd√¨ji. Co se t√Ω√®e toho jak zbroj vyrob√≠m, m√¨l bych si naj√≠t n√¨j√°k√©ho kov√°√∏e. Pochybuji ≈æe najdu ve m√¨st√¨ n√¨koho kdo by to pro mn√¨ ud√¨lal, tak≈æe tkus√≠m ≈°test√≠ n√¨kde jinde");
+	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_08_02"); //Napsal bych ti i n·vod pro tu kterou nosÌm j·, ale nem˘ûu si vzpomenout....	
+	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_08_03"); //Vraù se pozdÏji, zkusÌm si do tÈ doby vzpomenout jak to bylo.	
+	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovM_Thinking_15_04"); //DÌky, urËitÏ se vr·tÌm.				
+	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lester mi napsal n·vod jak vyrobit lehkou zbroj novice. Napsal by mi i n·vod pro tu samou co nosÌ on, ale nem˘ûe si vzpomenout jak to bylo, takûe se za nÌm m·m stavit pozdÏji. Co se t˝Ëe toho jak zbroj vyrobÌm, mÏl bych si najÌt nÏj·kÈho kov·¯e. Pochybuji ûe najdu ve mÏstÏ nÏkoho kdo by to pro mnÏ udÏlal, takûe tkusÌm ötestÌ nÏkde jinde");
 };
 instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT		(C_INFO)
 {
@@ -118,7 +118,7 @@ instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT		(C_INFO)
 	condition	 = 	Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_Condition;
 	information	 = 	Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_Info;
 
-	description	 = 	"U≈æ jsi si vzpomn√¨l?";
+	description	 = 	"Uû jsi si vzpomnÏl?";
 };
 
 func int Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_Condition ()
@@ -132,14 +132,14 @@ func int Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_Condition ()
 
 func void Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_Info ()
 {
-	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_15_00"); //U≈æ jsi si vzpomn√¨l?	
+	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_15_00"); //Uû jsi si vzpomnÏl?	
 	CreateInvItems (self, ItWr_TP_BluePrint_NOVH, 1);									
 	B_GiveInvItems (self, other, ItWr_TP_BluePrint_NOVH, 1);	
-	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_8_02"); //Ano, zde je n√°vod.
-	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_08_03"); //V√≠m ≈æe jsem s Baalem Namibem prob√≠ral jak je≈°t√¨ vylep≈°it zbroj novice, p√∏ed t√≠m ne≈æ zem√∏el Yberion. Ale ty bolesti hlavy mi br√°n√≠ v tom se nad t√≠m po√∏√°dn√¨ zamyslet.	
-	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_08_04"); //Omouv√°m se ale bude≈° se muset vr√°tit pozd√¨ji, zkus√≠m do t√© doby m√≠t pro tebe n√°kres p√∏ipraven√Ω.
-	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_15_05"); //D√≠ky za tvoj√≠ pomoc, opatruj se.	
-	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lester mi napsal n√°vod jak vyrobit zbroj novice. Lares se taky zm√≠nil ≈æe m√¨l n√°pad jak vylep≈°it zbroj novice, ale nem√π≈æe si vzpomenout tak se pro n√≠ m√°m vr√°tit pozd√¨ji.");
+	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_8_02"); //Ano, zde je n·vod.
+	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_08_03"); //VÌm ûe jsem s Baalem Namibem probÌral jak jeötÏ vylepöit zbroj novice, p¯ed tÌm neû zem¯el Yberion. Ale ty bolesti hlavy mi br·nÌ v tom se nad tÌm po¯·dnÏ zamyslet.	
+	AI_Output	(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_08_04"); //Omouv·m se ale budeö se muset vr·tit pozdÏji, zkusÌm do tÈ doby mÌt pro tebe n·kres p¯ipraven˝.
+	AI_Output	(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT_15_05"); //DÌky za tvojÌ pomoc, opatruj se.	
+	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lester mi napsal n·vod jak vyrobit zbroj novice. Lares se taky zmÌnil ûe mÏl n·pad jak vylepöit zbroj novice, ale nem˘ûe si vzpomenout tak se pro nÌ m·m vr·tit pozdÏji.");
 };
 //-------------------------------------
 //-------------------------------------
@@ -150,24 +150,24 @@ instance Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT (C_INFO)
 	condition	 = 	Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_Condition;
 	information	 = 	Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_Info;
 	permanent	 = 	FALSE;
-	description	 = 	"M√°≈° u≈æ sepsan√Ω n√°kres na vylep≈°en√≠ zbroje novice?";
+	description	 = 	"M·ö uû sepsan˝ n·kres na vylepöenÌ zbroje novice?";
 };
 func int Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_Condition ()
 {	
 	if 	(Npc_KnowsInfo (other, Ninja_TemplarExpansion_DIA_Addon_LESTER_NovH_IGOTIT))
-	&&  (Npc_KnowsInfo (Npc_IsDead(Dexter))
+	&&  (Npc_IsDead(Dexter))
 	{
 		return TRUE;
 	};
 };
 func void Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_Info ()
 {
-    AI_Output(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_15_01"); //Poda√∏ilo se ti vymyslet jak vylep≈°it t√¨≈ækou zbroj novice?
-    AI_Output(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_13_02"); //Ano, poda√∏ilo. Tady m√°≈° n√°kres.
+    AI_Output(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_15_01"); //Poda¯ilo se ti vymyslet jak vylepöit tÏûkou zbroj novice?
+    AI_Output(self, other, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_13_02"); //Ano, poda¯ilo. Tady m·ö n·kres.
 	CreateInvItems (self, ItWr_TP_BluePrint_NOVHR, 1);									
 	B_GiveInvItems (self, other, ItWr_TP_BluePrint_NOVHR, 1);	
-	AI_Output(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_15_04"); //D√≠ky za tvou pomoc.
-	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lares mi dal n√°kres pro vylep≈°en√≠ zbroje novice.");
+	AI_Output(other, self, "Ninja_TemplarExpansion_DIA_Addon_LESTER_NovHR_IGOTIT_15_04"); //DÌky za tvou pomoc.
+	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Lares mi dal n·kres pro vylepöenÌ zbroje novice.");
 };
 instance Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION (C_INFO)
 {
@@ -176,7 +176,7 @@ instance Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION (C_INFO)
 	condition	 = 	Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_Condition;
 	information	 = 	Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_Info;
 	permanent	 = 	FALSE;
-	description	 = 	"Nem√°≈° n√°pad kde bych mohl z√≠skat lep≈°√≠ zbroj?";
+	description	 = 	"Nem·ö n·pad kde bych mohl zÌskat lepöÌ zbroj?";
 };
 func int Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_Condition ()
 {	
@@ -187,16 +187,16 @@ func int Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_Condition ()
 };
 func void Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_Info ()
 {
-    AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_15_01"); //Nem√°≈° n√°pad kde bych mohl z√≠skat lep≈°√≠ zbroj?
-    AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_13_02"); //Ano, tady, vezmi si tenhle n√°kres na v√Ωrobu lehk√© zbroje templ√°√∏e.
-    AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_13_03"); //V t√°bo√∏e bratrstva byl m√πj st√°nek nedaleko Darrinovi kov√°rny, ob√®as jsem si p√°r v√¨cmi p√∏ilep≈°il.	Je na n√¨m i naps√°n n√°vod pro zbroj lovce bratrstva, tu ale Darrion nestihl vyrobit...
+    AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_15_01"); //Nem·ö n·pad kde bych mohl zÌskat lepöÌ zbroj?
+    AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_13_02"); //Ano, tady, vezmi si tenhle n·kres na v˝robu lehkÈ zbroje templ·¯e.
+    AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_13_03"); //V t·bo¯e bratrstva byl m˘j st·nek nedaleko Darrinovi kov·rny, obËas jsem si p·r vÏcmi p¯ilepöil.	Je na nÏm i naps·n n·vod pro zbroj lovce bratrstva, tu ale Darrion nestihl vyrobit...
 	CreateInvItems (self, ItWr_TP_BluePrint_TPLL, 1);									
 	B_GiveInvItems (self, other, ItWr_TP_BluePrint_TPLL, 1);	
-	AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_15_04"); //D√≠ky.    
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_13_05"); //M√¨l jsem u sebe je≈°t√¨ n√°kres na st√∏edn√≠ zbroj, ale nev√≠m kam jsem ho schoval. Vra¬ù se pozd√¨ji, mezit√≠m ti ho najdu.	
-	AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_15_06"); //Dobr√°, je≈°t√¨ se vr√°t√≠m.
+	AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_15_04"); //DÌky.    
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_13_05"); //MÏl jsem u sebe jeötÏ n·kres na st¯ednÌ zbroj, ale nevÌm kam jsem ho schoval. Vraù se pozdÏji, mezitÌm ti ho najdu.	
+	AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_QUESTION_15_06"); //Dobr·, jeötÏ se vr·tÌm.
 		Log_CreateTopic (TOPIC_NINJA_TPEXPANSION_ARMOR,LOG_NOTE);
-	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Fortuno mi dal n√°kres na v√Ωrobu lehk√≠ch zbroj√≠ bratrstva. M√¨l u sebe je≈°t√¨ n√°kres na st√∏edn√≠ zbroje, ale nev√≠ kam ho schoval, tak≈æe se m√°m vr√°tit pozd√¨ji a≈æ ho najde. Mezit√≠m bych se m√¨l postarat o Ravena");
+	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Fortuno mi dal n·kres na v˝robu lehkÌch zbrojÌ bratrstva. MÏl u sebe jeötÏ n·kres na st¯ednÌ zbroje, ale nevÌ kam ho schoval, takûe se m·m vr·tit pozdÏji aû ho najde. MezitÌm bych se mÏl postarat o Ravena");
 };
 instance Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION (C_INFO)
 {
@@ -205,7 +205,7 @@ instance Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION (C_INFO)
 	condition	 = 	Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_Condition;
 	information	 = 	Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_Info;
 	permanent	 = 	FALSE;
-	description	 = 	"U≈æ si ten n√°kres na≈°el?";
+	description	 = 	"Uû si ten n·kres naöel?";
 };
 func int Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_Condition ()
 {	
@@ -217,14 +217,14 @@ func int Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_Condition ()
 };
 func void Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_Info ()
 {
-    AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_15_01"); //U≈æ si ten n√°kres na≈°el?
-    AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_13_02"); //Ano, tady ho m√°≈°. Jsou tam i m√© n√°pady jako p√∏edt√≠m.	
+    AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_15_01"); //Uû si ten n·kres naöel?
+    AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_13_02"); //Ano, tady ho m·ö. Jsou tam i mÈ n·pady jako p¯edtÌm.	
 	CreateInvItems (self, ItWr_TP_BluePrint_TPLM, 1);									
 	B_GiveInvItems (self, other, ItWr_TP_BluePrint_TPLM, 1);	
-	AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_15_03"); //To mi ho d√°≈° jenom tak?    
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_13_04"); //Jasn√¨, pomohl jsi mi, tak≈æe si ho zaslou≈æ√≠≈° bez p√∏ir√°≈æky.	
-	AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_15_05"); //V tom p√∏√≠pad√¨ d√≠ky.
-	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Fortuno mi dal n√°kres na v√Ωrobu zbroj√≠ bratrstva.");
+	AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_15_03"); //To mi ho d·ö jenom tak?    
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_13_04"); //JasnÏ, pomohl jsi mi, takûe si ho zaslouûÌö bez p¯ir·ûky.	
+	AI_Output(other, self, "Ninja_TPExpansion_DIA_Addon_FORTUNO_MediumQUESTION_15_05"); //V tom p¯ÌpadÏ dÌky.
+	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Fortuno mi dal n·kres na v˝robu zbrojÌ bratrstva.");
 };
 //-------------------------------------
 //-------------------------------------
@@ -235,7 +235,7 @@ instance Ninja_TPExpansion_DIA_Angar_HeavyArmor (C_INFO)
 	condition	 = 	Ninja_TPExpansion_DIA_Angar_HeavyArmor_Condition;
 	information	 = 	Ninja_TPExpansion_DIA_Angar_HeavyArmor_Info;
 	permanent	 = 	TRUE;
-	description	 = 	"Nev√≠≈° kde bych mohl sehnat lep≈°√≠ zbroj?";
+	description	 = 	"NevÌö kde bych mohl sehnat lepöÌ zbroj?";
 };
 func int Ninja_TPExpansion_DIA_Angar_HeavyArmor_Condition ()
 {	
@@ -246,8 +246,8 @@ func int Ninja_TPExpansion_DIA_Angar_HeavyArmor_Condition ()
 };
 func void Ninja_TPExpansion_DIA_Angar_HeavyArmor_Info ()
 {
-    AI_Output(other, self, "Ninja_TPExpansion_DIA_Angar_HeavyArmor_15_01"); //Nev√≠≈° kde bych mohl sehnat lep≈°√≠ zbroj? 
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Angar_HeavyArmor_15_02"); //Promi√≤, ale te√Ø nem√°m na takov√© v√¨ci √®as. Mus√≠m naj√≠t sv√πj amulet.
+    AI_Output(other, self, "Ninja_TPExpansion_DIA_Angar_HeavyArmor_15_01"); //NevÌö kde bych mohl sehnat lepöÌ zbroj? 
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Angar_HeavyArmor_15_02"); //PromiÚ, ale teÔ nem·m na takovÈ vÏci Ëas. MusÌm najÌt sv˘j amulet.
 };
 //-------------------------------------
 var int ANGAR_TPPATCH_PLAN;
@@ -259,7 +259,7 @@ instance Ninja_TPExpansion_DIA_Angar_Amulet (C_INFO)
 	condition	 = 	Ninja_TPExpansion_DIA_Angar_NowYouHaveTheAmulet_Condition;
 	information	 = 	Ninja_TPExpansion_DIA_Angar_NowYouHaveTheAmulet_Info;
 	permanent	 = 	TRUE;
-	description	 = 	"Te√Ø kdy≈æ m√°≈° sv√πj amulet, nev√≠≈° kde bych mohl sehnat lep≈°√≠ zbroj bratrstva?";
+	description	 = 	"TeÔ kdyû m·ö sv˘j amulet, nevÌö kde bych mohl sehnat lepöÌ zbroj bratrstva?";
 };
 func int Ninja_TPExpansion_DIA_Angar_NowYouHaveTheAmulet_Condition ()
 {	
@@ -271,16 +271,16 @@ func int Ninja_TPExpansion_DIA_Angar_NowYouHaveTheAmulet_Condition ()
 };
 func void Ninja_TPExpansion_DIA_Angar_NowYouHaveTheAmulet_Info ()
 {
-    AI_Output(other, self, "Ninja_TPExpansion_DIA_Angar_Amulet_15_01"); //Te√Ø kdy≈æ m√°≈° sv√πj amulet, nev√≠≈° kde bych mohl sehnat lep≈°√≠ zbroj? 
+    AI_Output(other, self, "Ninja_TPExpansion_DIA_Angar_Amulet_15_01"); //TeÔ kdyû m·ö sv˘j amulet, nevÌö kde bych mohl sehnat lepöÌ zbroj? 
 	AI_Output(self, other, "Ninja_TPExpansion_DIA_Angar_Amulet_15_02"); //Hmm kam jsem to jenom... 
 	AI_Output(self, other, "Ninja_TPExpansion_DIA_Angar_Amulet_15_03"); //A, tady.
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Angar_Amulet_15_06"); //Kdy≈æ jsem je≈°t√¨ byl √®lenem bratrstva tak mi byl sv√¨√∏en ten n√°kres, aby se nedostal do ≈°patn√Ωch rukou. Je tam i napsan√Ω n√°vod na t√¨≈ækou zbroj lovce.
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Angar_Amulet_15_07"); //Ale te√Ø u≈æ ho nem√° smysl st√∏e≈æit, douf√°m ≈æe ti dob√∏e poslou≈æ√≠.
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Angar_Amulet_15_06"); //Kdyû jsem jeötÏ byl Ëlenem bratrstva tak mi byl svÏ¯en ten n·kres, aby se nedostal do öpatn˝ch rukou. Je tam i napsan˝ n·vod na tÏûkou zbroj lovce.
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Angar_Amulet_15_07"); //Ale teÔ uû ho nem· smysl st¯eûit, douf·m ûe ti dob¯e poslouûÌ.
 	CreateInvItems (self, ItWr_TP_BluePrint_TPLH, 1);									
 	B_GiveInvItems (self, other, ItWr_TP_BluePrint_TPLH, 1);	
-	AI_Output(other, self, "Ninja_TPExpansion_DIA_Angar_Amulet_15_08"); //D√≠ky.
+	AI_Output(other, self, "Ninja_TPExpansion_DIA_Angar_Amulet_15_08"); //DÌky.
 		Log_CreateTopic (TOPIC_NINJA_TPEXPANSION_ARMOR,LOG_NOTE);
-	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Angar mi dal n√°kres na v√Ωrobu t√¨≈æk√≠ch zbroj√≠ bratrstva.");
+	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"Angar mi dal n·kres na v˝robu tÏûkÌch zbrojÌ bratrstva.");
 	ANGAR_TPPATCH_PLAN = TRUE;
 };
 //-------------------------------------
@@ -293,7 +293,7 @@ instance Ninja_TPExpansion_DIA_Angar_AmuletNW (C_INFO)
 	condition	 = 	Ninja_TPExpansion_DIA_Angar_NowYouHaveTheAmulet_Condition;
 	information	 = 	Ninja_TPExpansion_DIA_Angar_NowYouHaveTheAmulet_Info;
 	permanent	 = 	TRUE;
-	description	 = 	"Te√Ø kdy≈æ m√°≈° sv√πj amulet, nev√≠≈° kde bych mohl sehnat lep≈°√≠ zbroj bratrstva?";
+	description	 = 	"Dostal jsem n·pad jak vyrobit skvÏlou zbroj.";
 };
 //-------------------------------------
 //-------------------------------------
@@ -304,28 +304,28 @@ instance Ninja_TPExpansion_DIA_Fortuno_BlackArmor (C_INFO)
 	condition	 = 	Ninja_TPExpansion_DIA_Fortuno_BlackArmor_Condition;
 	information	 = 	Ninja_TPExpansion_DIA_Fortuno_BlackArmor_Info;
 	permanent	 = 	TRUE;
-	description	 = 	"Dostal jsem n√°pad jak vyrobit skv√¨lou zbroj";
+	description	 = 	"Dostal jsem n·pad jak vyrobit skvÏlou zbroj";
 };
 func int Ninja_TPExpansion_DIA_Fortuno_BlackArmor_Condition ()
 {	
-	if (DJG_AngarGotAmulett == TRUE)
-	&& (Npc_HasItems(other, ItAr_RNG_TM) > 0)
+	if  (MIS_SCKnowsWayToIrdorath == TRUE)
+	&& (Npc_KnowsInfo (other, DIA_Addon_Fortuno_more))
 	{
 		return TRUE;
 	};
 };
 func void Ninja_TPExpansion_DIA_Fortuno_BlackArmor_Info ()
 {
-    AI_Output(other, self, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_01"); //Dostal jsem n√°pad jak vyrobit skv√¨lou zbroj.
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_02"); //V√°≈æne? j√° taky.
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_03"); //Dostal jsem vizi jak vyrobit za pomoc√≠ √®ern√© rudy opravdu unik√°tn√≠ zbroj.
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_04"); //Ale nem√°m ≈æ√°dnou √®ernou rudu, ani si nejsem jist√Ω ≈æe by n√¨co takov√©ho ≈°lo vyrrobit...
-    AI_Output(other, self, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_05"); //Ale ≈°lo, p√∏e√®etl jsem si jednou starou knihu kde se psalo o v√Ωrob√¨ zbroj√≠ za pomoci √®ern√© rudy.	
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_06"); //V√°≈æn√¨? V tom p√∏√≠pad√¨ to sep√≠≈°eme.
+    AI_Output(other, self, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_01"); //Dostal jsem n·pad jak vyrobit skvÏlou zbroj.
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_02"); //V·ûne? j· taky.
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_03"); //Dostal jsem vizi jak vyrobit za pomocÌ ËernÈ rudy opravdu unik·tnÌ zbroj.
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_04"); //Ale nem·m û·dnou Ëernou rudu, ani si nejsem jist˝ ûe by nÏco takovÈho ölo vyrrobit...
+    AI_Output(other, self, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_05"); //Ale ölo, p¯eËetl jsem si jednou starou knihu kde se psalo o v˝robÏ zbrojÌ za pomoci ËernÈ rudy.	
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_06"); //V·ûnÏ? V tom p¯ÌpadÏ to sepÌöeme.
 					B_UseFakeScroll ();
-	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_07"); //Tady, tv√° kopie n√°kresu.	
+	AI_Output(self, other, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_07"); //Tady, tv· kopie n·kresu.	
 	B_GiveInvItems(self, other, ItWr_TP_BluePrint_TPLO, 1);
-	AI_Output(other, self, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_08"); //D√≠ky.
-	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"S Fortunem jsme vymysleli n√°kres na v√Ωrobu nejlep≈°√≠ch zbroj√≠ bratrstva.");
+	AI_Output(other, self, "Ninja_TPExpansion_DIA_Fortuno_BlackArmor_15_08"); //DÌky.
+	B_LogEntry (TOPIC_NINJA_TPEXPANSION_ARMOR,"S Fortunem jsme vymysleli n·kres na v˝robu nejlepöÌch zbrojÌ bratrstva.");
 		Log_SetTopicStatus (TOPIC_NINJA_TPEXPANSION_ARMOR,LOG_SUCCESS);
 };
