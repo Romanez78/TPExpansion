@@ -1,6 +1,6 @@
 INSTANCE ITAR_TP_CHOSEN2_TPEXPANSION (C_Item)
 {
-	name 					=	"Zbroj Vyvoleného Z Bratrstva";
+	name 					=	"Armor of the Chosen One of the Brotherhood";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -25,7 +25,7 @@ INSTANCE ITAR_TP_CHOSEN2_TPEXPANSION (C_Item)
 	
 	description				=	name;
 
-	TEXT[0]					= 	"+10% Obouruèní talent";
+	TEXT[0]					= 	"+10% Two-Handed Talent";
 	TEXT[1]					=	NAME_Prot_Edge;			
 	COUNT[1]				= 	protection	[PROT_EDGE];
 	
@@ -53,7 +53,7 @@ func void UnEquip_ITAR_TP_CHOSEN2_TPEXPANSION()
 	};
 INSTANCE ITAR_TP_CHOSEN_TPEXPANSION (C_Item)
 {
-	name 					=	"Zbroj Mistra Lovce Bratrstva";
+	name 					=	"Armor of the Master Sect Hunter";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -78,7 +78,7 @@ INSTANCE ITAR_TP_CHOSEN_TPEXPANSION (C_Item)
 	
 	description				=	name;
 
-	TEXT[0]					= 	"+10 Bonus k obratnosti";
+	TEXT[0]					= 	"+10 Dexterity Bonus";
 	TEXT[1]					=	NAME_Prot_Edge;			
 	COUNT[1]				= 	protection	[PROT_EDGE];
 	
@@ -106,7 +106,7 @@ func void UnEquip_ITAR_TP_CHOSEN_TPEXPANSION()
 	};
 INSTANCE ITAR_TP_HEAVYR_TPEXPANSION (C_Item)
 {
-	name 					=	"Tìžká Zbroj Lovce Bratrstva";
+	name 					=	"Heavy Sect Hunter's Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -131,7 +131,7 @@ INSTANCE ITAR_TP_HEAVYR_TPEXPANSION (C_Item)
 	
 	description				=	name;
 
-	TEXT[0]					= 	"+7 Bonus k obratnosti";
+	TEXT[0]					= 	"+7 Dexterity Bonus";
 	TEXT[1]					=	NAME_Prot_Edge;			
 	COUNT[1]				= 	protection	[PROT_EDGE];
 	
@@ -159,7 +159,7 @@ func void UnEquip_ITAR_TP_HEAVYR_TPEXPANSION()
 	};
 INSTANCE ITAR_TP_HEAVY_TPEXPANSION (C_Item)
 {
-	name 					=	"Tìžká Zbroj Templáøe";
+	name 					=	"Heavy Templar's Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -184,7 +184,7 @@ INSTANCE ITAR_TP_HEAVY_TPEXPANSION (C_Item)
 	
 	description				=	name;
 
-	TEXT[0]					= 	"+7% Obouruèní talent";
+	TEXT[0]					= 	"+7% Two-Handed Talent";
 	TEXT[1]					=	NAME_Prot_Edge;			
 	COUNT[1]				= 	protection	[PROT_EDGE];
 	
@@ -212,7 +212,7 @@ func void UnEquip_ITAR_TP_HEAVY_TPEXPANSION()
 	};
 INSTANCE ITAR_TP_MEDIUMR_TPEXPANSION (C_Item)
 {
-	name 					=	"Zbroj Lovce Bratrstva";
+	name 					=	"Sect Hunter's Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -237,7 +237,7 @@ INSTANCE ITAR_TP_MEDIUMR_TPEXPANSION (C_Item)
 	
 	description				=	name;
 
-	TEXT[0]					= 	"+5 bonus k obratnosti";
+	TEXT[0]					= 	"+5 Dexterity Bonus";
 	TEXT[1]					=	NAME_Prot_Edge;			
 	COUNT[1]				= 	protection	[PROT_EDGE];
 	
@@ -265,7 +265,7 @@ func void UnEquip_ITAR_TP_MEDIUMR_TPEXPANSION()
 	};
 INSTANCE ITAR_TP_MEDIUM_TPEXPANSION (C_Item)
 {
-	name 					=	"Zbroj Templáøe";
+	name 					=	"Templar's Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -290,7 +290,7 @@ INSTANCE ITAR_TP_MEDIUM_TPEXPANSION (C_Item)
 	
 	description				=	name;
 
-	TEXT[0]					= 	"+5% Obouruèní talent";
+	TEXT[0]					= 	"+5% Two-Handed Talent";
 	TEXT[1]					=	NAME_Prot_Edge;			
 	COUNT[1]				= 	protection	[PROT_EDGE];
 	
@@ -318,7 +318,7 @@ func void UnEquip_ITAR_TP_MEDIUM_TPEXPANSION()
 	};
 INSTANCE ITAR_TP_LIGHTR_TPEXPANSION (C_Item)
 {
-	name 					=	"Lehká Zbroj Lovce Bratrstva";
+	name 					=	"Light Sect Hunter's Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -343,7 +343,7 @@ INSTANCE ITAR_TP_LIGHTR_TPEXPANSION (C_Item)
 	
 	description				=	name;
 
-	TEXT[0]					= 	"+3 bonus k obratnosti";
+	TEXT[0]					= 	"+3 Dexterity Bonus";
 	TEXT[1]					=	NAME_Prot_Edge;			
 	COUNT[1]				= 	protection	[PROT_EDGE];
 	
@@ -371,7 +371,7 @@ func void UnEquip_ITAR_TP_LIGHTR_TPEXPANSION()
 	};
 INSTANCE ITAR_TP_LIGHT_TPEXPANSION (C_Item)
 {
-	name 					=	"Lehká Zbroj Templáøe";
+	name 					=	"Light Templar Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -396,7 +396,7 @@ INSTANCE ITAR_TP_LIGHT_TPEXPANSION (C_Item)
 	
 	description				=	name;
 
-	TEXT[0]					= 	"+4% Obouruèní talent";
+	TEXT[0]					= 	"+4% Two-Handed Talent";
 	TEXT[1]					=	NAME_Prot_Edge;			
 	COUNT[1]				= 	protection	[PROT_EDGE];
 	
@@ -424,7 +424,7 @@ func void UnEquip_ITAR_TP_LIGHT_TPEXPANSION()
 	};
 INSTANCE ITAR_TP_NOVHR_TPEXPANSION (C_Item)
 {
-	name 					=	"Vylepšená Zbroj Novice";
+	name 					=	"Improved Novice's Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -466,7 +466,7 @@ INSTANCE ITAR_TP_NOVHR_TPEXPANSION (C_Item)
 };
 INSTANCE ITAR_TP_NOVH_TPEXPANSION (C_Item)
 {
-	name 					=	"Zbroj Novice";
+	name 					=	"Novice's Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -508,7 +508,7 @@ INSTANCE ITAR_TP_NOVH_TPEXPANSION (C_Item)
 };
 INSTANCE ITAR_TP_NOVM_TPEXPANSION (C_Item)
 {
-	name 					=	"Lehká Zbroj Novice";
+	name 					=	"Light Novice's Armor";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -550,7 +550,7 @@ INSTANCE ITAR_TP_NOVM_TPEXPANSION (C_Item)
 };
 INSTANCE ITAR_TP_NOVL_TPEXPANSION (C_Item)
 {
-	name 					=	"Bederní Rouška Novice";
+	name 					=	"Novice's Loincloth";
 
 	mainflag 				=	ITEM_KAT_ARMOR;
 	flags 					=	0;
@@ -592,7 +592,7 @@ INSTANCE ITAR_TP_NOVL_TPEXPANSION (C_Item)
 };
 instance ItWr_TP_BluePrint_NOVM(C_Item)
 {
-	name = "Nákres na výrobu lehké zbroje novice";
+	name = "Blueprint for making light novice armor";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
@@ -608,7 +608,7 @@ instance ItWr_TP_BluePrint_NOVM(C_Item)
 };
 instance ItWr_TP_BluePrint_NOVH(C_Item)
 {
-	name = "Nákres na výrobu zbroje novice";
+	name = "Blueprint for making novice armor";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
@@ -624,7 +624,7 @@ instance ItWr_TP_BluePrint_NOVH(C_Item)
 };
 instance ItWr_TP_BluePrint_NOVHR(C_Item)
 {
-	name = "Nákres na vylepšení zbroje novice";
+	name = "Blueprint for improving novice armor";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
@@ -640,7 +640,7 @@ instance ItWr_TP_BluePrint_NOVHR(C_Item)
 };
 instance ItWr_TP_BluePrint_TPLL(C_Item)
 {
-	name = "Nákres na výrobu lehké zbroje templáøe.";
+	name = "Blueprint for making light templar armors";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
@@ -656,7 +656,7 @@ instance ItWr_TP_BluePrint_TPLL(C_Item)
 };
 instance ItWr_TP_BluePrint_TPLM(C_Item)
 {
-	name = "Nákres na výrobu zbroje templáøe.";
+	name = "Blueprint for making templar armors";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
@@ -672,7 +672,7 @@ instance ItWr_TP_BluePrint_TPLM(C_Item)
 };
 instance ItWr_TP_BluePrint_TPLH(C_Item)
 {
-	name = "Nákres na výrobu tìžké zbroje templáøe.";
+	name = "Blueprint for making heavy templar armors";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
@@ -688,7 +688,7 @@ instance ItWr_TP_BluePrint_TPLH(C_Item)
 };
 instance ItWr_TP_BluePrint_TPLO(C_Item)
 {
-	name = "Nákres na výrobu zbroje bratrstva z èerné rudy.";
+	name = "Blueprint for making armors of the brotherhood from black ore";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
@@ -702,56 +702,3 @@ instance ItWr_TP_BluePrint_TPLO(C_Item)
 
 	description = name;
 };
-INSTANCE ITAR_PAL_ELITE (C_Item)
-{
-	name 					=	"Tìžká Zbroj Paladina";
-
-	mainflag 				=	ITEM_KAT_ARMOR;
-	flags 					=	0;
-
-	protection [PROT_EDGE]	=	165;
-	protection [PROT_BLUNT] = 	165;
-	protection [PROT_POINT] = 	165;
-	protection [PROT_FIRE] 	= 	120;
-	protection [PROT_MAGIC] = 	100;
-	
-	value 					=	30000;
-
-	wear 					=	WEAR_TORSO;
-
-	visual 					=	"ARMOR_TPEXPANSIONC.3ds";
-	visual_change 			=	"PALNEW.asc";
-	visual_skin 			=	0;
-	material 				=	MAT_METAL;
-
-		on_equip    			=    Equip_ITAR_TP_CHOSEN_TPEXPANSION;
-    on_unequip    			=    UnEquip_ITAR_TP_CHOSEN_TPEXPANSION;	
-	
-	description				=	name;
-
-	TEXT[0]					= 	"+10% Obouruèní talent";
-	TEXT[1]					=	NAME_Prot_Edge;			
-	COUNT[1]				= 	protection	[PROT_EDGE];
-	
-	TEXT[2]					=	NAME_Prot_Point;		
-	COUNT[2]				= 	protection	[PROT_POINT];
-	
-	TEXT[3] 				=	NAME_Prot_Fire;			
-	COUNT[3]				= 	protection	[PROT_FIRE];
-	
-	TEXT[4]					=	NAME_Prot_Magic;		
-	COUNT[4]				= 	protection	[PROT_MAGIC];
-	
-	TEXT[5]					=	NAME_Value;			
-	COUNT[5]				= 	value;
-};
-func void Equip_ITAR_TP_CHOSEN_TPEXPANSION()
-{
-    // "self" it is C_NPC which is equipping armor
-    B_RaiseFightTalent(self, NPC_TALENT_2H, 10);
-};
-func void UnEquip_ITAR_TP_CHOSEN_TPEXPANSION()
-{
-    // "self" it is C_NPC which is unequipping armor
-    B_RaiseFightTalent(self, NPC_TALENT_2H, -10);
-	};
